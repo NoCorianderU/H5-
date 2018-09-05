@@ -1,0 +1,27 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>简单解决</title>
+        <style type="text/css">
+            div{
+			  width:84px;
+			  height:80px;
+			  background:url(http://www.uc.cn/images1_4/sprite_uc_android.png);
+			  transition: all .3s steps(11);
+			}
+
+			div:hover{
+			  background-position: -1100px;
+			}
+
+			@keyframes myMove{
+				100%{background-position: -1100px;}
+			}
+        </style>
+    </head>
+    <body>
+        <audio src="./1.mp3" autoplay controls></audio>
+    </body>
+    </html>
